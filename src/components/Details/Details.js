@@ -65,6 +65,7 @@ const Details = () => {
     getMovies()
     //console.log(movies)
     //setMovie(movies[0])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   //const movie = movies[0]

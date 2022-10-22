@@ -22,7 +22,7 @@ const Genres = ({allGenres, setAllGenres, genres, setGenres}) => {
 
     useEffect(() => {
       getAllGenres()
-
+     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
     
 

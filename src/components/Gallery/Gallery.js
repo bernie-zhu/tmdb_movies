@@ -21,7 +21,7 @@ const Gallery = () => {
 
     useEffect(() => {
       getMovies()
-      //console.log(typeof movies[0])
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [page, genres])
     
 
