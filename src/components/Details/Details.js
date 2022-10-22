@@ -35,6 +35,7 @@ const Details = () => {
     for (let i = 0; i < movies.length; i++) {
       //console.log("for loop id:", movies[i].id)
       //console.log("passed id: ", passedId)
+      // eslint-disable-next-line
       if (movies[i].id == passedId && i < movies.length) {
         //console.log("here", movies[i].id)
         const nextId = movies.at(i + 1).id
@@ -49,6 +50,7 @@ const Details = () => {
 
   const handlePageChangeBackward = (e) => {
     for (let i = 0; i < movies.length; i++) {
+      // eslint-disable-next-line
       if (movies[i].id == passedId && i > 0) {
         const prevId = movies.at(i - 1).id
         window.location.href = "/details/" + prevId
