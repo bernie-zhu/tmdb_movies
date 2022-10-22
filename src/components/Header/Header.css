@@ -1,0 +1,12 @@
+.header {
+    min-height: 10vh;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 5rem;
+    background-color: #476A6F;
+    padding-bottom: 1px;
+    font-family: "Poppins", sans-serif;
+    z-index: 10;
+}

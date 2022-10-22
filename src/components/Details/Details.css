@@ -1,0 +1,35 @@
+.details-div {
+    background-color: #519E8A;
+    min-height: 83vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.movie-details {
+    background-color: #476A6F;
+    width: 650px;
+    height: 350px;
+}
+
+.movie-components {
+    display: flex;
+    flex-direction: wrap;
+}
+
+.movie-text {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.movie-text h3 {
+    margin-top: -4px;
+}
+
+.movie-text h4 {
+    margin-top: -10px;
+}
+
+.movie-text p {
+    margin-top: -15px;
+}

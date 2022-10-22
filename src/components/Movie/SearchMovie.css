@@ -1,0 +1,6 @@
+.search-movie-div {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    margin: 5px 5px;
+}

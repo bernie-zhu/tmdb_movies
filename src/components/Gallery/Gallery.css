@@ -1,0 +1,30 @@
+.displayed-movies {
+    background-color: #519E8A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.displayed-movies a {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 0px;
+    margin: 5px 5px;
+    background-color: #476A6F;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.displayed-movies a:hover {
+   color: black;
+}
+
+.movie-title {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+}

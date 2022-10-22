@@ -1,0 +1,47 @@
+.search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #519E8A;
+    min-height: 85vh;
+}
+
+.search-bar input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.search-result {
+    display: flex;
+    border: 1px solid black;
+    width: 500px;
+    height: 100px;
+    transition: 0.3s;
+    align-items: center;
+    margin-bottom: .25px;
+}
+
+.search-result:hover {
+    width: 600px;
+    height: 120px;
+    background-color: #476A6F;
+}
+
+.search-result-text-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-result-text {
+    font-size: 15px;
+    margin-bottom: -10px;
+}
+
+.link-wrapper {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,6 @@
+.pagination {
+    width: 100%;
+    background-color: #519E8A;
+    display: flex;
+    justify-content: center;
+}
