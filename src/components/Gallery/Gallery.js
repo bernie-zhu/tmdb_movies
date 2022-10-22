@@ -16,7 +16,7 @@ const Gallery = () => {
         const { data } = await axios.get(`https://api.themoviedb.org/3/discover/movie?api_key=61eb3247777aa2291a66578eebdf7983&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=${page}&with_watch_monetization_types=flatrate&with_genres=${genres}`);
 
         setMovies(data.results)
-        console.log(data)
+        //console.log(data)
     }
 
     useEffect(() => {

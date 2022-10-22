@@ -24,9 +24,9 @@ const Details = () => {
 
   const getDetails = async () => {
     //console.log(id)
-    console.log("here")
+    //console.log("here")
     const { data } = await axios.get(`https://api.themoviedb.org/3/movie/${passedId}?api_key=61eb3247777aa2291a66578eebdf7983&language=en-US`)
-    console.log("here", data)
+    //console.log("here", data)
     setMovie(data)
     //console.log("here2", movie)
   }
@@ -39,7 +39,7 @@ const Details = () => {
       if (movies[i].id == passedId && i < movies.length) {
         //console.log("here", movies[i].id)
         const nextId = movies.at(i + 1).id
-        window.location.href = nextId
+        window.location.href = "details/" + nextId
       }
     }
     // if (index < allMovies.length) {
@@ -53,7 +53,7 @@ const Details = () => {
       // eslint-disable-next-line
       if (movies[i].id == passedId && i > 0) {
         const prevId = movies.at(i - 1).id
-        window.location.href = prevId
+        window.location.href = "/details/" + prevId
       }
     }
     // if (index > 0) {
@@ -71,7 +71,7 @@ const Details = () => {
   }, [])
 
   //const movie = movies[0]
-  console.log(movie)
+  //console.log(movie)
   //console.log(movies[0])
 
   return (
