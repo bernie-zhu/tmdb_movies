@@ -8,7 +8,7 @@ import Details from "./components/Details/Details"
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Header/>
       <Navigation/>
       <Routes>
