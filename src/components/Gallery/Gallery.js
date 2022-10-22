@@ -31,7 +31,7 @@ const Gallery = () => {
         <div className="displayed-movies">
             {
                 movies.map((movie) => 
-                    <a key={movie.id} href={`details/${movie.id}`}>
+                    <a key={movie.id} href={`#/details/${movie.id}`}>
                       <Movie key={movie.id} title={movie.title || movie.name} poster={movie.poster_path}/>
                       <p className="movie-title">{movie.title}</p>
                     </a>

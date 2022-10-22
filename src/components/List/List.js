@@ -52,7 +52,7 @@ const List = () => {
                   return null;
                 }
               }).map((movie) => {
-                return <a key={movie.id} href={`details/${movie.id}`} className="link-wrapper">
+                return <a key={movie.id} href={`#/details/${movie.id}`} className="link-wrapper">
                   <div key={movie.id} className="search-result"> 
                       <SearchMovie key={movie.id} title={movie.title || movie.name} poster={movie.poster_path}/>
                       <div className="search-result-text-div">
