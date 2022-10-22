@@ -9,6 +9,8 @@ import DetailsMovie from "../Movie/DetailsMovie"
 const Details = () => {
   const { passedId } = useParams()
 
+  console.log(passedId)
+
   const [movie, setMovie] = useState()
   const [movies, setMovies] = useState([])
 
