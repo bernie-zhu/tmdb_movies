@@ -8,7 +8,7 @@ import Details from "./components/Details/Details"
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Header/>
       <Navigation/>
       <Routes>
@@ -16,7 +16,7 @@ function App() {
         <Route path="/list" element={<List/>} />
         <Route path="/details/:passedId" element={<Details/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
