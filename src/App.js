@@ -8,7 +8,7 @@ import Details from "./components/Details/Details"
 
 function App() {
   return (
-    <BrowserRouter basename={`https://bernie.zhu.gitlab.io/mp2`}>
+    <BrowserRouter basename={`mp2/`}>
       <Header/>
       <Navigation/>
       <Routes>
