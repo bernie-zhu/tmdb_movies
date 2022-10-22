@@ -41,7 +41,7 @@ const Details = () => {
       if (movies[i].id == passedId && i < movies.length) {
         //console.log("here", movies[i].id)
         const nextId = movies.at(i + 1).id
-        window.location.href = "details/" + nextId
+        window.location.href = nextId
       }
     }
     // if (index < allMovies.length) {
@@ -55,7 +55,7 @@ const Details = () => {
       // eslint-disable-next-line
       if (movies[i].id == passedId && i > 0) {
         const prevId = movies.at(i - 1).id
-        window.location.href = "/details/" + prevId
+        window.location.href = prevId
       }
     }
     // if (index > 0) {
