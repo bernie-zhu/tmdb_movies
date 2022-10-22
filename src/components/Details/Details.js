@@ -42,6 +42,8 @@ const Details = () => {
         //console.log("here", movies[i].id)
         const nextId = movies.at(i + 1).id
         window.location.href = "#/details/" + nextId
+        window.location.reload(false)
+        //navigate(nextId)
       }
     }
     // if (index < allMovies.length) {
@@ -56,6 +58,7 @@ const Details = () => {
       if (movies[i].id == passedId && i > 0) {
         const prevId = movies.at(i - 1).id
         window.location.href = "#/details/" + prevId
+        window.location.reload(false)
       }
     }
     // if (index > 0) {
